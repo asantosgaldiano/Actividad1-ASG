@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto Santos Galdiano">
+    <title>Actividad 1 Agoodshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agoodshop</h1>
+    <div id="contenedor">
+      <div id="contenedorTabla">
+        <table class="mitabla" id="tablaProductos">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Pr. Unidad</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpoTabla">
+
+          </tbody>
+        </table>
+      </div>
+      <div id="contenedorCarrito">
+        <div id="tituloTotal">
+          <h2>Total</h2>
+        </div>
+        <table id="productosCarrito">
+
+        </table>
+        <div id="contenedorTotal">
+          <span>TOTAL</span>
+          <span id="totalFinal">0.00 €</span>
+        </div>
+      </div>
+    </div>
+    <!-- Pongo el type MODULE, para que pueda importar/exportar las clases.js entre si -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
